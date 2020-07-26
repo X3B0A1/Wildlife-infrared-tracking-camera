@@ -1,6 +1,6 @@
 # Wildlife-infrared-tracking-camera
 
-**This project is only made when participating in maker competition, most of which are imagination, without considering feasibility**
+**The project is made when participating in a "creative AI design challenge". Most of the projects are imaginative and have not considered the feasibility**
 
 Your advice are most welcome
 
@@ -32,6 +32,34 @@ This is a collection of wildlife image data tracking acquisition, storage, analy
 
 7.  Cold and heat-resistant, safe, waterproof and shockproof, suitable for all kinds of natural environment.
 
+
+This is a system for tracking, acquiring, storing and analyzing wildlife image data and exchanging information,
+It mainly uses infrared automatic tracking camera robot to take pictures or videos to obtain the image data of wild animals,
+These images can be used to analyze the species composition, distribution, population number, behavior, habitat, food source, breeding offspring and living environment of wild animals,
+
+So as to provide important scientific basis for wildlife protection and management and resource utilization.
+
+What kind of problem to solve: better help researchers to research and protect endangered wildlife
+
+Concept: a system for tracking, acquiring, storing and analyzing wildlife image data and exchanging information
+
+Difficulty: because some animals have a very keen sense of hearing, moving noise needs to have no impact on the life of wild animals
+
+Application: after the detection of animals, apply image recognition technology / automatic road recognition and tracking during tracking / big data calculation and statistics of animal data and relationship
+
+Principle of image recognition: identify according to the classification in the database, check whether there is an image with the same or similar characteristics as the image, so as to identify the image. That is, to identify the image by classification and extraction of important features.
+
+The use of artificial intelligence in data transmission, image recognition and other aspects of saving time, but also more convenient, can also reduce the risk of human beings to the wild environment and the wild environment.
+
+Ideal: make this camera smaller, move faster, capture information more accurately
+
+Through the identification of machines, like us, we can give each endangered wildlife an "ID card" to record their growth and change.
+
+python code
+
+This program mainly uses the CV2lib to detect objects. Assuming that there are two images collected at different times, the simplest way to detect motion is to calculate the image difference. In other words, by subtracting the brightness value, the change or movement can be obtained; if there is no movement, the subtraction result will be 0; but if the target in the image moves, their image pixel brightness value will change, and the subtraction result is a non-zero value, they will take photos and store the photos in the computer.
+
+
 -----------------------
 中文文档
 
@@ -61,6 +89,38 @@ AI红外野生动物追踪隐形摄像机器人
 6、采用高科技材料制成，外体颜色可以根据周围环境而自行改变。形似蜘蛛，可伸缩、高灵敏度，可无声行走、飞行或隐藏。
 
 7、耐寒耐热、安全防水防震、适用各种自然环境。
+
+
+
+这是一个通过对野生动物图像数据进行追踪获取、存贮分析和信息交流的系统，
+主要是通过红外自动追踪摄像机器人拍摄图片或视频来获取野生动物的图像数据，
+并通过这些图像来分析野生动物的物种组成、分布、种群数量、行为、栖息地、食物来源、繁衍后代和生存环境等重要信息，
+从而为野生动物保护管理和资源利用提供重要科学依据。
+
+
+解决什么样的问题：更好的帮助科研人员对濒危野生动物的研究和保护
+
+理念： 通过对野生动物图像数据进行追踪获取、存贮分析和信息交流的系统
+
+困难处：因为一些动物的听觉非常敏锐，所以移动时的噪音需要做到对野生动物的生活毫无影响
+
+应用：检测到动物后，应用图像识别技术  /  跟踪时进行自动道路识别和跟踪  /  对动物的数据和关系进行大数据计算并统计……
+
+图像识别原理：根据数据库中已经分好的类别进行识别,查看是否有与该图像具有相同或类似特征的图像,从而识别出该图像.也就是通过分类并提取重要特征来识别图像。
+
+使用人工智能在数据传输，图像识别等方面都节省了时间，也更加方便，也可以减少人类对野外环境坏和野外化境的人类的危险。
+
+理想：让这个摄像机体积更小，移动速度更快，抓取信息更加精准……
+
+可以通过机器的识别，像我们人类一样，给每一个濒危野生动物一个“身份证”，以记录它们一身的生长变化。
+
+
+python 代码：
+
+这个程序使用主要使用了cv2库，对物体进行检测，假设有两帧不同时间采集的图像，检测运动的最简单方法就是计算图像差值。也就是说，通过把亮度值相减可以得到变化或者运动；如果没有发生运动，相减的结果就是0；但如果图像中的目标作出的运动，他们的图像像素亮度值就会发生变化，相减结果是一个非0的值，就会进行拍照，将照片存储到电脑中。
+
+
+
 
 
 
